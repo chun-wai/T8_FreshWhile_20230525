@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/typeOfUserTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type of User"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
+
+    <RadioGroup
+        android:id="@+id/accountTypeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/farmerRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer" />
+
+        <RadioButton
+            android:id="@+id/distributorRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distributor" />
+
+        <RadioButton
+            android:id="@+id/retailerRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retailer" />
+
+        <RadioButton
+            android:id="@+id/restaurantRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant" />
+
+        <RadioButton
+            android:id="@+id/consumerRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consumer" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/alreadySignedUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Signed Up?"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_background"
+        android:text="Sign In"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

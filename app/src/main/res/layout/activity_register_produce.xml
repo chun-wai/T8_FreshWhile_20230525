@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/freshProduceIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fresh Produce ID"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/freshProduceIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Fresh Produce ID" />
+
+    <TextView
+        android:id="@+id/freshProduceCategoryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fresh Produce Category"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/freshProduceCategoryRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/avocadoRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avocado" />
+
+        <RadioButton
+            android:id="@+id/bananaRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banana" />
+
+        <RadioButton
+            android:id="@+id/carrotRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrot" />
+
+        <RadioButton
+            android:id="@+id/dragonfruitRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dragonfruit" />
+
+        <RadioButton
+            android:id="@+id/eggplantRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eggplant" />
+
+        <RadioButton
+            android:id="@+id/fejioaRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fejioa" />
+
+        <RadioButton
+            android:id="@+id/guavaRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guava" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/dateOfHandlingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Handling"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/dateOfHandlingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Handling"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@android:drawable/editbox_background" />
+
+    <TextView
+        android:id="@+id/locationOfHandlingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location of Handling"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/locationOfHandlingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location of Handling" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Register"
+        android:background="@drawable/custom_button_background"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
